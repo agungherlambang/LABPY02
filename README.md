@@ -112,4 +112,11 @@ Program ini menerima input gaji, status keluarga (sudah berkeluarga atau belum),
 
 ### PENJELASAN PROGRAM
 
+1.Input Data Karyawan:
+Program meminta input dari pengguna untuk nama karyawan, gaji pokok, dan total potongan gaji. Menghitung Gaji Bersih:
+
+2.Menghitung Gaji Bersih:
+
+Gaji bersih dihitung dengan mengurangi gaji pokok dengan total potongan:
+
     
