@@ -98,9 +98,9 @@ Output:
 
 # latihan 2
 
-## MEMBUAT PROGRAM MENAMPILKAN GAJI KARYAWAN 
+### MEMBUAT PROGRAM MENAMPILKAN GAJI KARYAWAN 
 
-## DESKRIPSI
+### DESKRIPSI
 
 Program ini menerima input gaji, status keluarga (sudah berkeluarga atau belum), dan status kepemilikan rumah dari pengguna, kemudian melakukan beberapa pengecekan sebagai berikut:
 
