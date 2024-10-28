@@ -66,4 +66,13 @@ jika tidak sesuai semuanya pada program di atas output akan keluar(E)
 
 ### struktur program
 
+Input:
+
+• Nama siswa
+
+• Nilai UTS (float)
+
+• Nilai UAS (float)
+
+• Nilai Tugas (float)
     
