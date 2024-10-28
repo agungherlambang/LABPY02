@@ -31,3 +31,9 @@ Penentuan Huruf: Mengonversi nilai akhir menjadi huruf sesuai dengan kriteria ya
 Output: Menampilkan hasil perhitungan.
 
     akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)    
+
+ Fungsi dari integer dalam pemrograman adalah untuk merepresentasikan nilai bilangan bulat, baik positif maupun negatif, serta nol. Integer biasanya digunakan dalam operasi matematika seperti penjumlahan, pengurangan, perkalian, dan pembagian.
+
+ fungsi dari * untuk mengkalikan angka,dan fungsi dari  .2 adalah 0 koma 2
+
+ dan nilai tugas yang di masukan 90 ,maka akan dikalikan program di atas .2 yaitu( 0.2) maka keluar cetakan 18
