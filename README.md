@@ -38,5 +38,5 @@ Output: Menampilkan hasil perhitungan.
 
  dan nilai tugas yang di masukan 90 ,maka akan dikalikan program di atas .2 yaitu( 0.2) maka keluar cetakan 18
 
-keterangan = ("TIDAK LULUS", "LULUS")[akhir > 60,0]
+    keterangan = ("TIDAK LULUS", "LULUS")[akhir > 60,0]
  
