@@ -75,4 +75,22 @@ Input:
 • Nilai UAS (float)
 
 • Nilai Tugas (float)
+
+Output:
+
+• Nama siswa
+
+• Nilai UTS
+
+• Nilai UAS
+
+• Nilai Tugas
+
+• Nilai Akhir
+
+• Nilai Huruf
+
+• Keterangan ("LULUS" atau "TIDAK LULUS")
+
+#berikut screenshot visualcode
     
