@@ -119,4 +119,65 @@ Program meminta input dari pengguna untuk nama karyawan, gaji pokok, dan total p
 
 Gaji bersih dihitung dengan mengurangi gaji pokok dengan total potongan:
 
+gaji_bersih
+
+gaji_pokok − potongan
+
+    gaji_bersih=gaji_pokok−potongan
+
+4.Output:
+Program mencetak rincian gaji karyawan, termasuk nama, gaji pokok, potongan, dan gaji bersih. struktur ini menggunakan kondisi if, elif, dan else
+
+     gaji = int(input("Masukkan gaji:"))
+
+inputan ini akan memasukan angka gaji,karena memiliki fungsi int
+
+    berkeluarga = (False, True)[input("Sudah berkeluarga? (Y/T)") == "Y"]
+    punya_rumah = (False, True)[input("Punya rumah? (Y/T)") == "Y"]
+
+inputan ini menggunakan fungsi string yang di masukan berupa huruf,dan (false,true) ini adalah fungsi pemilihan Ya atau Tidak,agar tidak meggunakan if di lanjutan program tersebut
+
+if gaji > 2500000:
+    print ("Gaji sudah diatas UMR")
+
+    if berkeluarga:
+        print ("Wajib ikutan asuransi dan menabung untuk pensiun")
+    else:
+        print ("Tidak perlu ikutan asuransi")
+
+jika angka gaji angka gaji lrbih dari 3 juta maka output yang keluar"gaji sudah diatas UMR" dan jika tidak,output yang keluar"Tidak perlu ikut asuransi"
+
+if punya_rumah:
+        print ("wajib bayar pajak rumah")
+
+    else:
+        print ("tidak wajib bayar pajak rumah")
+
+Jika memiliki rumah maka output yang keluar adalah"Wajib bayar pajak", Jika tidak mempunyai rumah maka output yang keluar ialah "Tidak wajib bayar pajak"
+
+    else:
+          print ("Gaji belum UMR")        
+
+else yang berada di paling bawah ini terhubung dengan if Gaji > 2500000: apabila gaji tidak melebihi dari 3 juta output yang keluar"gaji belum UMR"
+
+### STRUKTUR PROGRAM
+
+    • Input:
+
+    • Gaji (int)
+
+    • Status berkeluarga (Y/T)
+
+    • Status kepemilikan rumah (Y/T)
+
+    • Output:
+
+    • Apakah gaji sudah di atas UMR atau belum
+
+    • Kewajiban mengikuti asuransi jika sudah berkeluarga
+
+    • Kewajiban membayar pajak rumah jika punya rumah
+
+![gambar](https://github.com/user-attachments/assets/d8b63244-a5b7-41b9-a7cf-b2fff9445028)
+
     
