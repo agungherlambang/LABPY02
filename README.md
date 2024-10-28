@@ -10,11 +10,11 @@
 
 Program ini dirancang untuk menghitung nilai akhir mahasiswa berdasarkan beberapa komponen penilaian, seperti nilai UTS (Ujian Tengah Semester), UAS (Ujian Akhir Semester), dan tugas. Program akan menampilkan nilai akhir dan memberikan keterangan mengenai status kelulusan.
 
- 20% untuk nilai tugas
+ >20% untuk nilai tugas
 
- 40% untuk nilai UTS
+ >40% untuk nilai UTS
 
- 40% untuk nilai UAS
+ >40% untuk nilai UAS
 
 ### PENJELASAN PROGRAM
 
@@ -104,7 +104,7 @@ Output:
 
 Program ini menerima input gaji, status keluarga (sudah berkeluarga atau belum), dan status kepemilikan rumah dari pengguna, kemudian melakukan beberapa pengecekan sebagai berikut:
 
-<Apakah gaji di atas UMR (Upah Minimum Regional).
+>Apakah gaji di atas UMR (Upah Minimum Regional).
 
 >Jika gaji di atas UMR, program akan mengecek apakah pengguna sudah berkeluarga untuk menentukan kewajibam mengikuti asuransi dan menabung.
 
