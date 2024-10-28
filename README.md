@@ -287,7 +287,7 @@ Petunjuk:
 
     ● Gunakan if else dan operator ternary.
 
-'''pyhton
+    '''pyhton
 harga_reguler = 50000
 harga_vip = 100000
 
