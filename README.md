@@ -285,10 +285,12 @@ Kasus 1: Program Pemesanan Tiket Bioskop Buat program yang menghitung harga tike
 
 Petunjuk:
 
-    ● Gunakan if else dan operator ternary.
+    ● Gunakan if else dan operator ternary    .
 
-
-      harga_reguler = 50000
+.
+        
+        
+          harga_reguler = 50000
          harga_vip = 100000
 
     tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
