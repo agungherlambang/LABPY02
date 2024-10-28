@@ -93,4 +93,7 @@ Output:
 • Keterangan ("LULUS" atau "TIDAK LULUS")
 
 # berikut screenshot visualcode
+
+![gambar](https://github.com/user-attachments/assets/807f2516-f3bd-49d8-a340-303c89a782aa)
+
     
