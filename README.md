@@ -20,7 +20,7 @@ Program ini dirancang untuk menghitung nilai akhir mahasiswa berdasarkan beberap
 
 '''Pyhton
 Contoh
-'''' akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)    
+'''' akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)  
 
 Perhitungan: Menghitung nilai akhir dengan bobot yang sesuai.
 
@@ -41,4 +41,6 @@ Output: Menampilkan hasil perhitungan.
     keterangan = ("TIDAK LULUS", "LULUS")[akhir > 60,0]
 
 keterangan ini hanya sebuah variable yang nantinya akan di cetakan,dan hasil ahkir akan memproses
+
+
  
