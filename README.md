@@ -386,6 +386,7 @@ operator = input("Masukkan operator (+, -, *, /): ") angka2 = float(input("Masuk
 # Menghitung hasil berdasarkan operator
 
 '''pyhton
+
 if operator == '+':
     hasil = angka1 + angka2
     print(f"Hasil penjumlahan: {hasil}")
