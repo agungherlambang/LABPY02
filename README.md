@@ -92,5 +92,5 @@ Output:
 
 • Keterangan ("LULUS" atau "TIDAK LULUS")
 
-#berikut screenshot visualcode
+# berikut screenshot visualcode
     
