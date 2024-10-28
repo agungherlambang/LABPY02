@@ -244,4 +244,75 @@ Fleksibilitas: Dengan menggunakan OR, kita bisa menetapkan kriteria yang lebih f
        print("BENAR")
     else:
         print("SALAH")
+
+operator OR dalam python merubah beberapa kondisi dan mengembalikan true jika salah satu benar.
+
+    a = int(input("Masukkan bilangan A: "))
+    b = int(input("Masukkan bilangan B: "))
+    c = int(input("Masukkan bilangan C: "))
+
+Program ini menginputkan sesuatu integer yang menggunakan variable a,b,c.
+
+    if a+b == c or b+c == a or c+a == b:
+        print("BENAR")
+    else:
+         print("SALAH")
+
+jika (A) ditambah (B) haslnya (C) atau bahasa pemograman itu OR ,dan apabila (B) ditambah (C) hasilnya (A),dan (C) ditambah (A) maka hasilnya (B). maka output yang keluar adalah "benar"
+
+### KESIMPULANN
+
+Operator OR adalah alat yang sangat berguna dalam pemrograman untuk mengevaluasi beberapa kondisi. Memahami cara kerjanya memungkinkan programmer untuk membuat logika yang lebih kompleks dan dinamis dalam aplikasi mereka. Jika ada yang ingin Anda tanyakan lebih lanjut, silakan beri tahu!
+
+### STRUKTUR PROGRAM
+
+1.Input Data:
+Menggunakan input() untuk meminta pengguna memasukkan nama, gaji, dan status kepemilikan rumah. Gaji diambil sebagai float untuk memungkinkan nilai desimal. Status kepemilikan rumah diubah menjadi boolean dengan membandingkan input dengan "Y".
+
+2.Proses Logika Menggunakan OR:
+Menggunakan pernyataan if untuk mengevaluasi apakah gaji lebih dari 5.000.000 atau jika pengguna memiliki rumah. Jika salah satu kondisi bernilai True, maka variabel kelayakan diatur menjadi "layak untuk mendapatkan pinjaman." Jika tidak, diatur menjadi "tidak layak untuk mendapatkan pinjaman."
+
+3.Output Hasil:
+Menggunakan print() untuk menampilkan hasil kepada pengguna, termasuk nama, gaji, dan kelayakan pinjaman.
+
+### BERIKUT HASIL SCREENSHOOT VISUALCODE
+
+![GAMBAR](https://github.com/user-attachments/assets/ea38bd41-5c44-4bbe-8be0-80808a475db8)
+
+# LATIHAN 3: KASUS 1 DAN KASUS 2
+
+Kasus 1: Program Pemesanan Tiket Bioskop Buat program yang menghitung harga tiket bioskop. Tiket reguler berharga Rp50.000, sedangkan tiket VIP berharga Rp100.000. Jika user memiliki kartu member, mereka mendapatkan diskon 20% dari harga tiket. Program ini harus meminta tipe tiket dan status member dari user, lalu menghitung total harga yang harus dibayar.
+
+Petunjuk:
+
+    ● Gunakan if else dan operator ternary.
+
+'''pyton harga_reguler = 50000
+harga_vip = 100000
+
+tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
+status_member = (input("Apakah Anda memiliki kartu member? (ya/tidak): "))
+
+ Menghitung total harga
+if tipe_tiket == "reguler":
+    total_harga = harga_reguler
+elif tipe_tiket == "vip":
+    total_harga = harga_vip
+else:
+    print("Tipe tiket tidak valid.")
+    exit()
+
+ Menghitung diskon jika pengguna memiliki kartu member
+
+
+if status_member == "ya":
+        total_harga *= 0.8  # Diskon 20%
+    
+        print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
+elif status_member == "tidak":
+            total_harga
+            print(f"total harga yang harua dibayar: Rp{total_harga:.2f}")
+else:
+    print("Harga tidak dapat dihitung.")
+
     
