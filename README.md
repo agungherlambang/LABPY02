@@ -287,7 +287,7 @@ Petunjuk:
 
     ● Gunakan if else dan operator ternary.
 
-'''pyton harga_reguler = 50000
+'''pyhton harga_reguler = 50000
 harga_vip = 100000
 
 tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
@@ -314,5 +314,7 @@ elif status_member == "tidak":
             print(f"total harga yang harua dibayar: Rp{total_harga:.2f}")
 else:
     print("Harga tidak dapat dihitung.")
+    
+
 
     
