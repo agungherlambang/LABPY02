@@ -54,5 +54,5 @@ keterangan ini hanya sebuah variable yang nantinya akan di cetakan,dan hasil ahk
 
 ini adalah struktur kondisi yang menggunakan if, elif , danelse
 
-   if akhir > 80:
+    if akhir > 80:
        huruf = "A"
