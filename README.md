@@ -18,9 +18,8 @@ Program ini dirancang untuk menghitung nilai akhir mahasiswa berdasarkan beberap
 
 ### PENJELASAN PROGRAM
 
- # Contoh dalam Markdown
-akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
-
+    '''pytonakhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
+    
 Perhitungan: Menghitung nilai akhir dengan bobot yang sesuai.
 
 Keterangan: Menentukan apakah siswa lulus atau tidak berdasarkan nilai akhir.
