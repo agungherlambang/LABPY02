@@ -180,4 +180,68 @@ else yang berada di paling bawah ini terhubung dengan if Gaji > 2500000: apabila
 
 ![gambar](https://github.com/user-attachments/assets/d8b63244-a5b7-41b9-a7cf-b2fff9445028)
 
+### BERIKUT SCREENSHOT VISUALCODE
+
+![gambar](https://github.com/user-attachments/assets/46965e65-1949-4448-81ea-4f9d0b9331bb)
+
+# LATIHAN 3
+
+### PENGGUNAAN KONDISI OR
+
+### DESKRIPSI
+
+Kondisi OR adalah operator logika yang digunakan untuk mengevaluasi dua atau lebih ekspresi kondisi. Dalam bahasa pemrograman Python, operator ini memungkinkan kita untuk memeriksa beberapa kondisi sekaligus. Jika salah satu atau lebih dari kondisi tersebut bernilai True, maka keseluruhan pernyataan akan dianggap True. Sebaliknya, jika semua kondisi bernilai False, maka hasilnya adalah False. Penggunaan kondisi OR sangat berguna dalam berbagai situasi di mana beberapa kondisi perlu dievaluasi. Operator ini memudahkan pengambilan keputusan dalam logika program, sehingga membuat kode menjadi lebih ringkas dan efisien. Dengan memahami cara kerja OR, programmer dapat menciptakan skrip yang lebih kompleks dan dinamis.
+
+### PENJELASAN OR
+
+1.Definisi Operator OR adalah operator logika yang digunakan untuk mengevaluasi dua atau lebih kondisi. Dalam Python, operator ini ditulis sebagai or. Jika salah satu dari kondisi tersebut bernilai True, maka keseluruhan ekspresi juga akan bernilai True. Sebaliknya, jika semua kondisi bernilai False, maka hasilnya adalah False.
+2.Sintaksis Penggunaan dasar operator OR dalam Python adalah sebagai berikut:
+
+    if kondisi1 or kondisi2:
+         # lakukan sesuatu
+
+3.Contoh Penggunaan
+
+a. Pemeriksaan Sederhana Misalnya, kita ingin mengecek apakah sebuah angka berada di luar rentang tertentu:
+
+    angka = 7
+      if angka < 5 or angka > 10:
+           print("Angka tidak dalam rentang 5 hingga 10")
+    else:
+      print("Angka dalam rentang 5 hingga 10")
+
+b. Kelayakan dalam Konteks Bisnis Dalam bisnis, kita mungkin perlu memverifikasi kelayakan berdasarkan beberapa syarat:
+
+    gaji = 2500000
+    memiliki_rumah = True
+
+    if gaji > 5000000 or memiliki_rumah:
+        print("Kelayakan pinjaman terverifikasi")
+    else:
+        print("Kelayakan pinjaman tidak terpenuhi")
+
+Jika gaji lebih dari 5.000.000 atau pemohon memiliki rumah, mereka dianggap layak untuk pinjaman.
+
+c. Logika dalam Pendidikan Dalam konteks pendidikan, kita dapat menggunakan OR untuk mengevaluasi nilai siswa:
+
+    if a + b == c or b + c == a or c + a == b:
+        print("BENAR")
+    else:
+         print("SALAH")
+
+Program ini memeriksa apakah jumlah dua bilangan sama dengan bilangan ketiga. Jika salah satu kondisi terpenuhi, outputnya adalah "BENAR".
+
+4.Keuntungan Menggunakan OR
+
+Menyederhanakan Kode: Operator OR memungkinkan kita untuk menggabungkan beberapa kondisi dalam satu pernyataan, yang membuat kode lebih bersih dan mudah dibaca.
+
+Fleksibilitas: Dengan menggunakan OR, kita bisa menetapkan kriteria yang lebih fleksibel untuk logika keputusan.
+
+    a = int(input("Masukkan bilangan A: "))
+    b = int(input("Masukkan bilangan B: "))
+    c = int(input("Masukkan bilangan C: "))
+    if a+b == c or b+c == a or c+a == b:
+       print("BENAR")
+    else:
+        print("SALAH")
     
