@@ -41,5 +41,13 @@ Output: Menampilkan hasil perhitungan.
 
 keterangan ini hanya sebuah variable yang nantinya akan di cetakan,dan hasil ahkir akan memproses
 
-
- 
+     if akhir > 80:
+     huruf = "A"
+     elif akhir > 70:
+    huruf = "B"
+    elif akhir > 50:
+    huruf = "C"
+    elif akhir > 40:
+    huruf = "D"
+    else:
+    huruf = "E"
