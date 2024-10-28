@@ -28,4 +28,4 @@ Penentuan Huruf: Mengonversi nilai akhir menjadi huruf sesuai dengan kriteria ya
 
 Output: Menampilkan hasil perhitungan.
 
-    akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
+    akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)    
