@@ -309,7 +309,7 @@ else:
 if status_member == "ya":
         total_harga *= 0.8  # Diskon 20%
     
-        print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
+   print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
 elif status_member == "tidak":
             total_harga
             print(f"total harga yang harua dibayar: Rp{total_harga:.2f}")
