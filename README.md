@@ -96,4 +96,13 @@ Output:
 
 ![gambar](https://github.com/user-attachments/assets/807f2516-f3bd-49d8-a340-303c89a782aa)
 
+# latihan 2
+
+## MEMBUAT PROGRAM MENAMPILKAN GAJI KARYAWAN 
+
+## DESKRIPSI
+
+Program ini menerima input gaji, status keluarga (sudah berkeluarga atau belum), dan status kepemilikan rumah dari pengguna, kemudian melakukan beberapa pengecekan sebagai berikut:
+
+
     
