@@ -18,9 +18,8 @@ Program ini dirancang untuk menghitung nilai akhir mahasiswa berdasarkan beberap
 
 ### PENJELASAN PROGRAM
 
-'''Pyhton
-Contoh
-'''' akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)  
+ # Contoh dalam Markdown
+akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
 
 Perhitungan: Menghitung nilai akhir dengan bobot yang sesuai.
 
