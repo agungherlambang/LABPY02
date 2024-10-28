@@ -56,3 +56,14 @@ ini adalah struktur kondisi yang menggunakan if, elif , danelse
 
     if akhir > 80:
        huruf = "A"
+
+jika hasil dari nilai tersebut lebih besar dari 80 maka output yang keluar (A)
+
+    else:
+    huruf = "E"
+
+jika tidak sesuai semuanya pada program di atas output akan keluar(E)
+
+### struktur program
+
+    
