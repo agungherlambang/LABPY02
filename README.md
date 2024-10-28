@@ -342,13 +342,71 @@ Jika tipe tiket reguler total harga proses ke Harga reguler, dan jika tiket vip 
 
 dan jika Selain memasukan inputan reguler/vip Output yang keluar "Tipe tiket tidak valid" dan berproses ke fungsi exit() yang artinya program dihentikan.
 
-'''pyhton
-if status_member == "ya":
+
+     if status_member == "ya":
         total_harga *= 0.8  # Diskon 20%
     
         print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
-elif status_member == "tidak":
+    elif status_member == "tidak":
             total_harga
             print(f"total harga yang harua dibayar: Rp{total_harga:.2f}")
+    else:
+        print("Harga tidak dapat dihitung.")
+
+desision ini menentukan mempunyai kartu member atau tidak, Jika Inputan status member menjawab "ya", maka total harga akan di kalikan dengan operator * 0,8 yang disebut diskon 20%
+
+dan jika inputan status member "tidak", maka total harga normal
+
+jika menginputkan selain (ya/tidak) output yang keluar "Harga tidak dapat dihitung"
+
+Dan ini hasil program tersebut:
+
+![gambar](https://github.com/user-attachments/assets/2c2ae638-e6ae-4489-844f-9611b5c7cce6)
+
+Eksekusi dari program tersebut:
+
+![gambar](https://github.com/user-attachments/assets/0cfa3e59-1d55-4b28-ad14-e413847e2011)
+
+Dan Flowchartnya:
+
+![gambar](https://github.com/user-attachments/assets/03c10987-2e01-40aa-9d35-4a2f54bc643f)
+
+### KASUS 2 PROGRAM KALKULATOR SEDERHANA
+
+Buat program kalkulator yang menerima dua angka dan satu operator aritmatika dari pengguna (penjumlahan, pengurangan, perkalian, atau pembagian). Program akan menghitung hasil sesuai dengan operator yang dipilih.
+
+# Petunjuk:
+
+    ● Gunakan if elif else untuk menentukan operasi aritmatika.
+
+    angka1 = float(input("Masukkan angka pertama: "))
+
+operator = input("Masukkan operator (+, -, *, /): ") angka2 = float(input("Masukkan angka kedua: "))
+
+# Menghitung hasil berdasarkan operator
+
+'''pyhton
+if operator == '+':
+    hasil = angka1 + angka2
+    print(f"Hasil penjumlahan: {hasil}")
+elif operator == '-':
+    hasil = angka1 - angka2
+    print(f"Hasil pengurangan: {hasil}")
+elif operator == '*':
+    hasil = angka1 * angka2
+    print(f"Hasil perkalian: {hasil}")
+elif operator == '/':
+    if angka2 != 0:
+        hasil = angka1 / angka2
+        print(f"Hasil pembagian: {hasil}")
+    else:
+        print("Error: Pembagian dengan nol tidak diperbolehkan.")
+
 else:
-    print("Harga tidak dapat dihitung.")
+    print("Error: Operator tidak valid. Silakan gunakan +, -, *, atau /.")
+
+
+
+
+
+
