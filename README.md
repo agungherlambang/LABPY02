@@ -18,8 +18,7 @@ Program ini dirancang untuk menghitung nilai akhir mahasiswa berdasarkan beberap
 
 ### PENJELASAN PROGRAM
 
-```pyton
-    akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
+     akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
     
 Perhitungan: Menghitung nilai akhir dengan bobot yang sesuai.
 
